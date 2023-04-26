@@ -11,10 +11,10 @@ int _erratoi(char *s)
 	unsigned long int result = 0;
 
 	if (*s == '+')
-		s++;  /* TODO: why does this make main return 255? */
+		s++;
 	for (r = 0;  s[r] != '\0'; r++)
 	{
-		if (s[r] >= '0' &&  [r] <= '9')
+		if (s[r] >= '0' && s[r] <= '9')
 		{
 			result *= 10;
 			result += (s[r] - '0');
@@ -71,7 +71,7 @@ int print_d(int input, int fd)
 	current = _abs_;
 	for (r = 1000000000; r > 1; r /= 10)
 	{
-		if (_abs_ / i#r)
+		if (_abs_ / r)
 		{
 			__putchar('0' + current / r);
 			count++;
@@ -131,7 +131,7 @@ void remove_comments(char *buf)
 	int r;
 
 	for (r = 0; buf[r] != '\0'; r++)
-		if (buf[r] == '#' && (!r || buf[i - 1] == ' '))
+		if (buf[r] == '#' && (!r || buf[r - 1] == ' '))
 		{
 			buf[r] = '\0';
 			break;

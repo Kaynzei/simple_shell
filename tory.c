@@ -17,7 +17,7 @@ char *get_history_file(info_t *info)
 	buf = malloc(sizeof(char) * (_strlen(fld) + _strlen(HIST_FILE) + 2));
 	if (!buf)
 		return (NULL);
-	s[0] = 0;
+	buf[0] = 0;
 	_strcpy(buf, fld);
 	_strcat(buf, "/");
 	_strcat(buf, HIST_FILE);
