@@ -31,8 +31,7 @@ int _erratoi(char *s)
  * print_error - a function that  prints  error
  * @info: parameter info struct
  * @estr: string containing specified error type
- * Return: 0 if no n0s in string, converted number otherwise
- *        -1 
+ * Return: 0 if no n0s in string, otherwise -1
  */
 void print_error(info_t *info, char *estr)
 {
