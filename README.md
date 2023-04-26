@@ -1,2 +1,1 @@
-This is the READMD.md file for the ALX simple shell team project
-The collaborator is Joel Udoye
+This is the README.md file for the simple shell ALX project
