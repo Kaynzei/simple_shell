@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _erratoi - a function that converts a string to an integer
- * @s: the string
+ * _erratoi - a function that changes  a string to an integer
+ * @s:  string
  * Return: 0 or -1
  */
 int _erratoi(char *s)
@@ -30,7 +30,7 @@ int _erratoi(char *s)
 /**
  * print_error - a function that  prints  error
  * @info: parameter info struct
- * @estr: string containing specified error type
+ * @estr: string
  * Return: 0 if no n0s in string, otherwise -1
  */
 void print_error(info_t *info, char *estr)

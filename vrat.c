@@ -2,7 +2,7 @@
 
 /**
  * _myexit - a function that exits the shell
- * @info: Structure containing potential arguments
+ * @info: Structure  potential arguments
  *
  * Return: 0 if info.argv[0] != "exit"
  */

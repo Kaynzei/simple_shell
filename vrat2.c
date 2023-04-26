@@ -2,8 +2,8 @@
 
 /**
  * _myhistory - a function that displays the history list
- * @info: Structure containing potential arguments.
- *  Return: Always 0
+ * @info: potential arguments.
+ * Return: Always 0
  */
 int _myhistory(info_t *info)
 {
